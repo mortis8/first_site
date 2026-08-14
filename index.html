@@ -3,54 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Мой сайт</title>
+    <title>Создание ботов</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             min-height: 100vh;
-
             display: flex;
             justify-content: center;
             align-items: center;
-
             font-family: Arial, sans-serif;
-            background: #111;
+            background: #111827;
             color: white;
             text-align: center;
         }
 
         .container {
-            padding: 30px;
+            max-width: 700px;
+            padding: 40px;
         }
 
         h1 {
-            font-size: 45px;
+            font-size: 50px;
+            margin-bottom: 15px;
         }
 
         p {
-            color: #aaa;
-            font-size: 18px;
+            color: #cbd5e1;
+            font-size: 20px;
+            line-height: 1.6;
         }
 
         .telegram {
             display: inline-block;
-            margin-top: 20px;
+            margin-top: 25px;
             padding: 15px 30px;
-
             background: #229ED9;
             color: white;
-
             text-decoration: none;
-            border-radius: 10px;
-
+            border-radius: 12px;
             font-size: 20px;
             font-weight: bold;
+            transition: 0.2s;
         }
 
         .telegram:hover {
-            opacity: 0.8;
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -58,17 +60,26 @@
 <body>
 
     <div class="container">
-        <h1>Привет! 👋</h1>
 
-        <p>Добро пожаловать на мой сайт!</p>
+        <h1>🤖 Я создаю ботов</h1>
+
+        <p>
+            Создаю Telegram-ботов и простые автоматизированные решения
+            для разных задач.
+        </p>
+
+        <p>
+            Если вам нужен бот — напишите мне в Telegram.
+        </p>
 
         <a
             class="telegram"
             href="https://t.me/ТВОЙ_USERNAME"
             target="_blank"
         >
-            ✈️ Мой Telegram
+            ✈️ Написать в Telegram
         </a>
+
     </div>
 
 </body>
